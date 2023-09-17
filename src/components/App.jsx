@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Searchbar from './Searchbar';
 import ImageGallery from './ImageGallery';
 import Button from './Button';
 import Modal from './Modal';
 import Loader from './Loader';
 import { fetchImages } from 'api';
+import Searchbar from './Searchbar';
 
 class App extends Component {
   state = {
